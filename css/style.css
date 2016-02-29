@@ -1,0 +1,204 @@
+h2.title {
+	text-align: center;
+	color: white;
+	text-shadow:0px 0px 0.5px black;
+}
+
+ div.project {
+ 	width:60%; 
+ 	height: 370px;
+ 	margin:25px auto 0 ;
+
+ }  
+
+ .glyphicon-calendar {
+ 	font-size: 30px;
+ }
+
+ .container {
+ 	background: #395D9D;
+ 	width:100%;
+ 	border-radius: 3px;
+ 	padding: 10px 20px;
+ 	position: relative;
+ }
+
+ .container:hover {
+ 	cursor: pointer;
+ }
+
+ .project-name {
+ 	font-size: 25px;
+    color: white;
+    margin-left: 15px;
+ }
+
+ .navbar-header > .tools-container {
+ 	position: absolute;
+ 	top: 19px;
+	right: 15px;
+	opacity: 0.7;
+	display: none;
+ }
+
+ .navbar-header .glyphicon-pencil,  
+ .navbar-header .glyphicon-trash {
+ 	font-size: 20px;
+ 	color: whitesmoke;
+ 	cursor: pointer;
+ }
+
+.glyphicon-pencil:after {
+	content: '|';
+	margin-left: 5px;
+};
+
+.glyphicon-pencil:hover, 
+.glyphicon-trash:hover {
+	cursor: pointer;
+}
+
+.glyphicon-pencil:hover {
+	color: #FFF39B;
+}
+
+.glyphicon-trash:hover {
+	color: #FF5468;
+}
+
+.addTaskPanel {
+	background: #CFCFCF;
+	width:100%;
+}
+
+.glyphicon-plus {
+	font-size: 30px;
+    color: #588F71;
+    padding: 0px 20px 10px;
+}
+
+.glyphicon-plus:hover {
+	cursor: pointer;
+}
+
+.input-group {
+	width: 80%;
+    display: inline-table;
+    margin-top: 10px;
+}
+
+.task-container {
+	height: 260px;
+    background: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+body { 
+	background: grey;
+}
+
+.checkbox input[type=checkbox] {
+	margin-left: 0;
+}
+
+.task-text {
+	display: inline-block;
+    margin: 10px 0 0 0;
+    color: grey;
+}
+
+tr:hover{
+	cursor: pointer;
+	background: #FCFED5;
+}
+
+.task-container tr > td {
+	position: relative;
+}
+
+td > .tools-container {
+	display: none;
+	color: grey;
+    opacity: 0.7;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+}
+
+.glyphicon-resize-vertical:after {
+    content: '|';
+    margin-left: 5px;
+}
+
+.glyphicon-resize-vertical:hover {
+	color: #3e8f3e;
+}
+
+.task-container .glyphicon-pencil:hover {
+	color: #FFB45E;
+}
+
+.add-list {
+    background: #3A64A0;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0px 0px 0.5px black;
+    display: block;
+    margin: 40px auto;
+}
+
+.add-list > .glyphicon-plus {
+	padding: 0px 10px 5px 0;
+    font-size: 25px;
+}
+
+.sign {
+	color: white;
+    display: block;
+    width: 95px;
+    margin: 0 auto;
+}
+
+.sign > a {
+	color: white;
+}
+
+.new-project {
+	margin-top:30px;
+	margin-bottom: 30px;
+	text-align: center;
+	display: none;
+}
+
+.new-project > .input-group {
+	width: 50%;
+}
+
+.alert-danger {
+	position: fixed;
+	top: 20px;
+	left: 25%;
+	width: 50%;
+	margin:0 auto;
+	display: none;
+	z-index: 100;
+}
+
+div.edit-project {
+	display: none;
+    width: 70%;
+    margin: 5px 0 0 20px;
+}
+
+div.table-responsive {
+	height: 250px;
+}
+
+.task-edit {
+	display: none;
+}
+
+.task-complete {
+	background-color: #dff0d8;
+}
